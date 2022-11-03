@@ -1,0 +1,161 @@
+.circle {
+    line-height: 50px;
+    border-radius: 47%;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: #4DB7B3;
+}
+
+.add-to-cart-button {
+    width: 86px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #4DB7B3;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 9px;
+    border: 2px solid;
+    background-color: white;
+    text-align: center;
+}
+
+.price-tag{
+
+    height: 28px;
+    left: 538px;
+    top: 1256px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 2rem !important;
+    color: #4DB7B3;
+}
+
+.title-tag{
+
+    height: 24px;
+    left: 206px;
+    top: 1203px;
+
+    /* Menu text - Poppins bold - 15 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+
+    /* Black color */
+
+    color: #2D2A2B;
+}
+
+.product-container {
+    text-align: center;
+    display: inline-block;
+    margin: 10rem;
+}
+
+@media screen and (max-width: 900px) {
+    .product-container {
+        text-align: center;
+        display: inline-block;
+        margin: 3rem;
+    }
+
+    .title-tag {
+
+        font-size: 15px;
+        height: 5px;
+        line-height: 8px;
+
+    }
+
+    .price-tag {
+
+        font-size: 12px;
+        margin-bottom: 0rem !important;
+        line-height: 0px;
+        height: 0px;
+    }
+
+
+    .add-to-cart-button {
+
+        font-size: 5px;
+
+    }
+
+    .circle {
+        line-height: 23px;
+        border-radius: 50%;
+        font-size: 7px;
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        background: #4DB7B3;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .product-container {
+        text-align: center;
+        display: inline-block;
+        margin: 0rem;
+    }
+
+    .title-tag {
+
+        font-size: 5px;
+        height: 5px;
+        line-height: 8px;
+
+    }
+
+    .price-tag {
+
+        font-size: 6px;
+        margin-bottom: 0rem !important;
+        line-height: 0px;
+        height: 0px;
+    }
+
+
+    .add-to-cart-button {
+
+        font-size: 5px;
+
+    }
+
+    .circle {
+        line-height: 23px;
+        border-radius: 50%;
+        font-size: 7px;
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        background: #4DB7B3;
+    }
+}
